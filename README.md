@@ -1,4 +1,9 @@
 # GitQuickBooks
+
+[![Build Status](https://travis-ci.org/rposborne/gitquickbooks.svg)](https://travis-ci.org/rposborne/gitquickbooks)
+[![Code Climate](https://codeclimate.com/github/rposborne/gitquickbooks/badges/gpa.svg)](https://codeclimate.com/github/rposborne/gitquickbooks)
+[![Test Coverage](https://codeclimate.com/github/rposborne/gitquickbooks/badges/coverage.svg)](https://codeclimate.com/github/rposborne/gitquickbooks/coverage)
+
 This code links git wakatime per commit data to quickbooks online.
 It will automatically manage API keys and storing of wakatime data locally via
 GitWakatime gem.
