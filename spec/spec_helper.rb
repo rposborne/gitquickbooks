@@ -16,6 +16,9 @@
 # users commonly want.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
+
 require 'thor'
 require 'gitquickbooks'
 
