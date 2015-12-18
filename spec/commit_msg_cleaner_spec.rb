@@ -12,6 +12,9 @@ describe GitQuickBooks::CommitMsgCleaner do
 
   subject(:subject) { described_class.new(msgs) }
   it 'string' do
-    expect(subject.call).to eql('')
+    expect(subject.call).to eql("I am the first message
+I am the last
+I skipped
+I wish i was capitalized correctly")
   end
 end

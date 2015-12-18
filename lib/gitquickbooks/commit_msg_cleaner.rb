@@ -22,7 +22,7 @@ module  GitQuickBooks
     def remove_square_brackets
       @msgs.map do |msg|
         # [ci-skip]
-        msg.gsub(/\[.*\]/, '')
+        msg.gsub(/\[.*\]/, '').strip
       end
     end
 
